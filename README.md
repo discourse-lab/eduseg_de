@@ -60,6 +60,7 @@ You can use the scripts provided in `\code` for finetuning and inference.
 
 ### Citing
 If you use this model, please cite our paper:
+```
 @article{Frenzel_Krupop_Stede_2026, title={Discourse Segmentation of German Text with Pretrained Language Models}, volume={39}, url={https://jlcl.org/article/view/306}, DOI={10.21248/jlcl.39.2026.306}, number={1}, journal={Journal for Language Technology and Computational Linguistics}, author={Frenzel, Steffen and Krupop, Maximilian and Stede, Manfred}, year={2026}, month={Feb.}, pages={1–31} }
 ```
 
