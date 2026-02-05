@@ -23,8 +23,8 @@ This includes:
 * `model.safetensors` — the model weights
 * `.json` files — model configuration and tokenizer metadata
 * `.model` — SentencePiece tokenizer model
-  
-Do not use the `main` branch for paper results; always refer to `paper-v1.0`.
+
+Always refer to the `paper-v1.0` tag for paper results.
 
 ### Hugging Face Mirror
 For convenience, the same model is mirrored on Hugging Face. The Hugging Face repository is bit-identical to the GitHub tag `paper-v1.0`.
