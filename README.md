@@ -71,7 +71,7 @@ number={1},
 journal={Journal for Language Technology and Computational Linguistics},
 author={Frenzel, Steffen and Krupop, Maximilian and Stede, Manfred},
 year={2026},
- month={Feb.},
+month={Feb.},
 pages={1–31} }
 ```
 
