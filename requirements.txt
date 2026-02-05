@@ -1,0 +1,29 @@
+# Transformers library for model and tokenizer
+transformers>=4.25,<5.0
+
+# PyTorch backend (CPU/GPU)
+torch>=1.12,<2.1
+
+# Hugging Face Hub for downloading/mirroring models
+huggingface-hub>=0.17,<1.0
+
+# SentencePiece tokenizer (used by XLM-RoBERTa)
+sentencepiece>=0.1.97
+
+# Hugging Face Datasets for loading data for fine-tuning
+datasets>=2.10,<3.0
+
+# NumPy for data handling
+numpy>=1.23,<2.0
+
+# Scikit-learn for evaluation metrics
+scikit-learn>=1.2,<2.0
+
+# Optional: tqdm for progress bars
+tqdm>=4.64,<5.0
+
+# Optional: torchmetrics for advanced evaluation (if used in scripts)
+torchmetrics>=0.11,<1.0
+
+# Git LFS (needed if cloning large model files from GitHub)
+git-lfs>=3.3
