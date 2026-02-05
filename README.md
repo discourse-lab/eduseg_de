@@ -56,7 +56,8 @@ model = AutoModelForTokenClassification.from_pretrained(MODEL_PATH_HF)
 
 ### Using the model
 The model accepts plain text (`.txt`) as input. The output will be `.txt`as well, segments are separated by newline.
-You can use the scripts provided in `\code` for finetuning and inference.
+You can use the script provided in `\code` for inference. Update the config section in the main() function before use!
+Please note: xlm-roberta has a maximum input length of 512 tokens. Longer documents will be cut after 512 tokens. Split long documents before use or add a slinding window to process long documents.
 
 ### Citing
 If you use this model, please cite our paper:
