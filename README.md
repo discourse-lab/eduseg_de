@@ -1,4 +1,8 @@
 # eduseg_de
+
+UPDATE: A bilingual model trained on our German data (as described in the paper) as well as on English EDU data (parts of 'The Catcher in the Rye' by J.D. Salinger, parts of 'The Human Condition' by Hannah Arendt, and a part of the Penn Discourse Tree Bank) was added to this repo. The model is stored in 'model_bilingual'.
+
+
 This repository contains the XLM-RoBERTa model for discourse segmentation used in our paper:
 
 **Discourse Segmentation of German Text with Pretrained Language Models** -- 
